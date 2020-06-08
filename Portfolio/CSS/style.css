@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #262626;
+  background: repeating-linear-gradient(
+      90deg,
+      hsla(263, 0%, 84%, 0.06) 0px,
+      hsla(263, 0%, 84%, 0.06) 1px,
+      transparent 1px,
+      transparent 71px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      hsla(263, 0%, 84%, 0.06) 0px,
+      hsla(263, 0%, 84%, 0.06) 1px,
+      transparent 1px,
+      transparent 71px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      hsla(263, 0%, 84%, 0.05) 0px,
+      hsla(263, 0%, 84%, 0.05) 1px,
+      transparent 1px,
+      transparent 36px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(263, 0%, 84%, 0.05) 0px,
+      hsla(263, 0%, 84%, 0.05) 1px,
+      transparent 1px,
+      transparent 36px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      hsla(263, 0%, 84%, 0.05) 0px,
+      hsla(263, 0%, 84%, 0.05) 1px,
+      transparent 1px,
+      transparent 16px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      hsla(263, 0%, 84%, 0.05) 0px,
+      hsla(263, 0%, 84%, 0.05) 1px,
+      transparent 1px,
+      transparent 16px
+    ),
+    linear-gradient(90deg, hsl(72, 13%, 7%), hsl(72, 13%, 7%));
+}
+
+.containeryuca {
+  transform: translateY(30px);
+}
+.ingresar {
+  position: absolute;
+  left: 84%;
+  margin-top: -20px;
+}
+
+.ingresar h2:hover {
+  background-color: #550000;
+  transition: 300ms;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+nav li {
+  margin-left: 5px;
+  width: 130px;
+  height: 40px;
+  color: #262626;
+  font-size: 20px;
+  background-color: #ffcccc;
+  border-radius: 10px;
+  line-height: 40px;
+  text-align: center;
+  transform: translateX(-22px);
+  margin-bottom: -10px;
+  transition: 300ms;
+}
+
+nav li:hover,
+nav #actual {
+  background-color: #800000;
+  color: antiquewhite;
+}
+
+.container {
+  margin: auto;
+  width: 550px;
+  height: 650px;
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.smimg {
+  fill: #262626;
+  padding-right: 20px;
+}
+.smimg:hover {
+  fill: #ffcccc;
+  transition: 300ms;
+}
+
+.contacto {
+  width: 450px;
+  height: 40px;
+  background-color: #800000;
+  color: antiquewhite;
+  border-radius: 10px;
+  line-height: 40px;
+  margin: 30px auto;
+}
+
+.portadaimg {
+  padding-top: 20px;
+}
+
+p {
+  margin: auto;
+  width: 450px;
+  height: auto;
+}
+
+.linea {
+  height: 4px;
+  width: 450px;
+  background-color: #ffcccc;
+  margin: 30px auto;
+}
+
+.title,
+.subtitle {
+  margin: 10px auto;
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    margin: 0 auto;
+    width: 400px;
+  }
+  .contacto {
+    text-align: center;
+    width: 350px;
+    font-size: 0.5rem;
+  }
+  .contactotxt {
+    font-size: 12px;
+    transform: translateX(-50px);
+  }
+  .linea {
+    margin: 20px auto;
+    width: 350px;
+  }
+  .yotxt {
+    width: 350px;
+  }
+  nav li {
+    width: 95px;
+    font-size: 1rem;
+  }
+}
